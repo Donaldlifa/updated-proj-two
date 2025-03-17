@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
             mobileMenu.classList.add('active');
         });
 
-        
-
         closeMenuBtn.addEventListener('click', () => {
             mobileMenu.classList.remove('active');
         });

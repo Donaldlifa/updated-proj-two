@@ -1006,6 +1006,10 @@ nav ul li a:hover {
 /* Collection Ends... */
 
 /* Contact Section */
+
+main{
+    background-color: #f9f5f2;
+}
 .main-content {
     padding: 20px;
     background-color: #f9f5f2;
@@ -1031,7 +1035,14 @@ nav ul li a:hover {
 .get-in-touch h2, .customer-support h2, .business-inquiries h2, .contact-form h2 {
     font-size: 28px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.get-in-touch h2 {
+    border: 1px solid red; /* Temporary border for debugging */
 }
 
 .get-in-touch p, .business-inquiries p, .contact-form p {
